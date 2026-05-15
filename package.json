@@ -4,10 +4,12 @@
   "description": "Centro Educacional São Francisco de Assis - Node.js + Express + PostgreSQL | UniFacema – ADS 2026",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
