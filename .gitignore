@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Variáveis sensíveis
+.env
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+.next/
+
+# Cache
+.cache/
+__pycache__/
+
+# Sistema
+.DS_Store
+Thumbs.db
